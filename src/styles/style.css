@@ -182,6 +182,10 @@ main {
 .add-new-page__input {
   margin-top: 32px;
 }
+.not-found{
+  text-align: center;
+  font-size:large;
+}
 
 .add-new-page__input .add-new-page__input__title {
   width: 100%;

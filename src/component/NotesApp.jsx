@@ -5,6 +5,7 @@ import ArsipPage from "../pages/ArsipPage";
 import DetailPage from "../pages/DetailPage";
 import NotesHeader from "./NotesHeader";
 import AddPage from "../pages/AddPage";
+import NotFound from "../pages/NotFound";
 
 function AppNotes() {
   return (
@@ -21,6 +22,7 @@ function AppNotes() {
           <Route path="/arsip" element={<ArsipPage />} />
           <Route path="/notes/:id" element={<DetailPage />} />
           <Route path="/notes/new" element={<AddPage />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
     </div>
